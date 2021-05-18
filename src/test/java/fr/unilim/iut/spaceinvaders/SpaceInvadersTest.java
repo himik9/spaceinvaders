@@ -79,4 +79,23 @@ public class SpaceInvadersTest {
     }
 
   }
+  @Test
+  public void test_VaisseauAvance_DeplacerVaisseauVersLaDroite() {
+
+    spaceinvaders.positionnerUnNouveauVaisseau(7,9);
+
+    spaceinvaders.deplacerVaisseauVersLaDroite();
+
+    assertEquals("" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "...............\n" +
+            "........V......\n" , spaceinvaders.recupererEspaceJeuDansChaineASCII());
+  }
 }
