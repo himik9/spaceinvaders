@@ -1,4 +1,4 @@
-# spaceinvaders
+# Spaceinvaders
 
 ### Sprints et fonctionnalités réalisées 
 
@@ -28,11 +28,11 @@ Si le vaisseau se trouve sur la bordure gauche de l'espace de jeu, le vaisseau d
 
 ### Diagramme de classes 
 
-![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine1.png)
+![Diagrammes de classes de la semaine 1](Images/DiagrammeClasses_Semaine1.png)
 
 ### Nuage de mots du projet spaceinvaders (séance n°1) 
 
-![Nuage de mots de la semaine 1](images/NuageMots_Semaine1.png)
+![Nuage de mots de la semaine 1](Images/NuageMots_Semaine1.png)
 
 ### Difficultés rencontrées 
 Problèmes avec les projet Maven et les import de Junit ce qui a énormément retardé l'avancement du projet
